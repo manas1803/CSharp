@@ -1,0 +1,26 @@
+D:\To Do List\C#\CSharpComplete\CSharpComplete\bin\Debug\netcoreapp3.1\CSharpComplete.exe
+D:\To Do List\C#\CSharpComplete\CSharpComplete\bin\Debug\netcoreapp3.1\CSharpComplete.deps.json
+D:\To Do List\C#\CSharpComplete\CSharpComplete\bin\Debug\netcoreapp3.1\CSharpComplete.runtimeconfig.json
+D:\To Do List\C#\CSharpComplete\CSharpComplete\bin\Debug\netcoreapp3.1\CSharpComplete.runtimeconfig.dev.json
+D:\To Do List\C#\CSharpComplete\CSharpComplete\bin\Debug\netcoreapp3.1\CSharpComplete.dll
+D:\To Do List\C#\CSharpComplete\CSharpComplete\bin\Debug\netcoreapp3.1\CSharpComplete.pdb
+D:\To Do List\C#\CSharpComplete\CSharpComplete\obj\Debug\netcoreapp3.1\CSharpComplete.csprojAssemblyReference.cache
+D:\To Do List\C#\CSharpComplete\CSharpComplete\obj\Debug\netcoreapp3.1\CSharpComplete.AssemblyInfoInputs.cache
+D:\To Do List\C#\CSharpComplete\CSharpComplete\obj\Debug\netcoreapp3.1\CSharpComplete.AssemblyInfo.cs
+D:\To Do List\C#\CSharpComplete\CSharpComplete\obj\Debug\netcoreapp3.1\CSharpComplete.csproj.CoreCompileInputs.cache
+D:\To Do List\C#\CSharpComplete\CSharpComplete\obj\Debug\netcoreapp3.1\CSharpComplete.dll
+D:\To Do List\C#\CSharpComplete\CSharpComplete\obj\Debug\netcoreapp3.1\CSharpComplete.pdb
+D:\To Do List\C#\CSharpComplete\CSharpComplete\obj\Debug\netcoreapp3.1\CSharpComplete.genruntimeconfig.cache
+D:\ToDoList\CSharp\Code\CSharpComplete\bin\Debug\netcoreapp3.1\CSharpComplete.exe
+D:\ToDoList\CSharp\Code\CSharpComplete\bin\Debug\netcoreapp3.1\CSharpComplete.deps.json
+D:\ToDoList\CSharp\Code\CSharpComplete\bin\Debug\netcoreapp3.1\CSharpComplete.runtimeconfig.json
+D:\ToDoList\CSharp\Code\CSharpComplete\bin\Debug\netcoreapp3.1\CSharpComplete.runtimeconfig.dev.json
+D:\ToDoList\CSharp\Code\CSharpComplete\bin\Debug\netcoreapp3.1\CSharpComplete.dll
+D:\ToDoList\CSharp\Code\CSharpComplete\bin\Debug\netcoreapp3.1\CSharpComplete.pdb
+D:\ToDoList\CSharp\Code\CSharpComplete\obj\Debug\netcoreapp3.1\CSharpComplete.csprojAssemblyReference.cache
+D:\ToDoList\CSharp\Code\CSharpComplete\obj\Debug\netcoreapp3.1\CSharpComplete.AssemblyInfoInputs.cache
+D:\ToDoList\CSharp\Code\CSharpComplete\obj\Debug\netcoreapp3.1\CSharpComplete.AssemblyInfo.cs
+D:\ToDoList\CSharp\Code\CSharpComplete\obj\Debug\netcoreapp3.1\CSharpComplete.csproj.CoreCompileInputs.cache
+D:\ToDoList\CSharp\Code\CSharpComplete\obj\Debug\netcoreapp3.1\CSharpComplete.dll
+D:\ToDoList\CSharp\Code\CSharpComplete\obj\Debug\netcoreapp3.1\CSharpComplete.pdb
+D:\ToDoList\CSharp\Code\CSharpComplete\obj\Debug\netcoreapp3.1\CSharpComplete.genruntimeconfig.cache
