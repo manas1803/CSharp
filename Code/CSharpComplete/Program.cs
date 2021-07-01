@@ -69,8 +69,11 @@ namespace CSharpComplete
             //DictionaryExplained de = new DictionaryExplained();
             //de.Print();
 
-            DictionaryTryGet dg = new DictionaryTryGet();
-            dg.Print();
+            //DictionaryTryGet dg = new DictionaryTryGet();
+            //dg.Print();
+
+            LIstExplained li = new LIstExplained();
+            li.Main();
         }
     }
 }

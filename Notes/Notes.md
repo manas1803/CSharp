@@ -30,6 +30,7 @@
  - [The ToString and Equals Method](#the-tostring-and-equals-method)
  - [Optional Parameters in C#](#optional-parameters-in-c#)
  - [Dictionary](#dictionary)
+ - [List](#list)
 -------------------------------------------
 # **Introduction**
 C# is pronounced "C-Sharp".
@@ -1778,6 +1779,129 @@ The clear method clears all the values in a dictionary making it empty.
 ```C#
 employeeDictionary.Clear();
 ```
+
+[^Top](#content)
+
+---
+
+# **List**
+We have another generic collection as list.
+
+We can create a list of anything. Int,string,object etc.
+
+List grow in size as elements gets added to it.
+
+We can access a list element by its index just like array
+
+We also have Insert method to insert the data at a specific place.
+
+```C#
+
+    class LIstExplained
+    {
+        public void Main()
+        {
+            List<Student1> li = new List<Student1>();
+            Student1 st1 = new Student1()
+            {
+                FirstName = "Tom",
+                LastName = "Cruise",
+                Marks = 98
+            };
+            Student1 st2 = new Student1()
+            {
+                FirstName = "Bruce",
+                LastName = "Wayne",
+                Marks = 99
+            };
+            Student1 st3 = new Student1()
+            {
+                FirstName = "John",
+                LastName = "Watson",
+                Marks = 96
+            };
+            li.Add(st1);
+            li.Add(st2);
+            li.Add(st3);
+
+            foreach(Student1 s in li)
+            {
+                Console.WriteLine("FirstName of student is {0},LastName of student is {1} and there marks are {2}",s.FirstName,s.LastName,s.Marks);
+            }
+        }
+    }
+    public class Student1
+    {
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public int Marks { get; set; }
+    }
+
+```
+
+## **Various important methods in List**
+
+### **Contains()**
+Checks if the item exists in the list.
+
+```C#
+if (li.Contains(st1))
+            {
+                Console.WriteLine("Yes the student exists");
+            }
+            else
+            {
+                Console.WriteLine("No it does not exists");
+            }
+```
+
+### **Exists()**
+This also checks if the item exists in the list but we can also specify some condition inside it to get a specific result.
+
+```C#
+if (li.Exists(s => s.FirstName.StartsWith("C")))
+            {
+                Console.WriteLine("Hello Superman");
+            }
+            else
+            {
+                Console.WriteLine("No Justice League member");
+            }
+```
+
+### **Find()**
+Searches for an element that matches the condition defined by the specific lambda expression and returns the first matching item from the list
+
+```C#
+Student1 ss = li.Find(s => s.Marks > 90);
+            Console.WriteLine("FirstName of student is {0},LastName of student is {1} and there marks are {2}", ss.FirstName, ss.LastName, ss.Marks);
+
+```
+
+### **FindLast()**
+Searches for an element that matches the condition defined by the specific lambda expression and returns the last matching item from the list
+
+```C#
+Student1 sl = li.FindLast(s => s.Marks > 90);
+            Console.WriteLine("FirstName of student is {0},LastName of student is {1} and there marks are {2}", sl.FirstName, sl.LastName, sl.Marks);
+```
+
+### **FindAll()**
+Searches for an element that matches the condition defined by the specific lambda expression and returns all matching item from the list
+
+```C#
+List<Student1> ll = li.FindAll(s => s.Marks > 90);
+foreach(Student1 sss in ll)
+            {
+                Console.WriteLine("FirstName of student is {0},LastName of student is {1} and there marks are {2}", sss.FirstName, sss.LastName, sss.Marks);
+            }
+```
+
+### **FindIndex()**
+Returns the index of the first item that matches the condition specified by the lambda expression. There are 2 overloads of this method which allows us to specify the range of elements to search, with in the list.
+
+### **FindLastIndex()**
+Returns the index of the last item that matches the condition specified by the lambda expression. There are 2 overloads of this method which allows us to specify the range of elements to search, with in the list.
 
 [^Top](#content)
 

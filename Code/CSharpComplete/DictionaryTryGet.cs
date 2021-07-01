@@ -59,7 +59,7 @@ namespace CSharpComplete
             {
                 Console.WriteLine("The employee id is {0}", empData.Key);
 
-                Console.WriteLine("The employee name is " + employeeDictionary[empData.Key].EmpName + " and the salary of employee is " + employeeDictionary[empData.Key].Salary);
+                Console.WriteLine("The employee name is " + employeeDictionary[empData.Key].EmpName+ " and the salary of employee is " + employeeDictionary[empData.Key].Salary);
                 Console.WriteLine("--------------------------------------------------------------------------------------------------------");
             }
         }
